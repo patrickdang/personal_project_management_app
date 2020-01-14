@@ -68,6 +68,13 @@
             <artifactId>jjwt</artifactId>
             <version>0.9.0</version>
         </dependency>
+        
+        <dependency>
+      		<groupId>org.apache.maven.plugins</groupId>
+      		<artifactId>maven-surefire-plugin</artifactId>
+      		<version>3.0.0-M4</version>
+      		<type>maven-plugin</type>
+    	</dependency>
     </dependencies>
 
     <build>
@@ -75,9 +82,12 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                
             </plugin>
         </plugins>
     </build>
+    
+    
 
 
 </project>
